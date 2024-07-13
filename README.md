@@ -2,10 +2,13 @@
 
 ![Javascript Thumbnail](Assets/JsChallenge.png)
 
-# 30 day Activities
+## Activities
 
-| Day | Challenge | What I Leaned
+| Day | Challenge | What I Learn |
+| --- | --- | --- |
+| 1 | Variables and Data Types |Here i lean how to declare variable using `let`, `var` ,`const` understand the different data type and type of  and undersatnds varible reassignment and the immutability of const    |
 
-| --- | --- | ---|
 
-** Stretch Goals \***
+### **Stretch Goals** 
+
+- That's my  goal to revise javascript from beginner 😊😊
