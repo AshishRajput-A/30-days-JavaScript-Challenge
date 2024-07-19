@@ -11,6 +11,7 @@
 | 3 | Control Structures | day 3 i prectice basic if-else control flow and nested if-else statement switch cases and apply ternory operator and solve combine multiple condition problem | 
 | 4 | Loops | day 4 i prectice for-loop , while-loop , do..while-loop , and nested loop and also know about loop control by using break and continue |
 | 5 | Function | day 5 i prectice function declration, function exoression , Arrow function , and know more much about Higher order function |
+| 6 | Array | day 6 i prectice array and their methods push,pop,shift,unshift and itration for-of and for-each and the last i know about multi dimensinal matrix |
 ### **Stretch Goals**
 
 - That's my goal to revise javascript from beginner 😊😊
