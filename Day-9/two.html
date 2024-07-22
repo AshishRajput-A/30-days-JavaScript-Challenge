@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create-Element</title>
+  </head>
+  <body>
+    <ul class="list"></ul>
+  </body>
+
+  <script>
+    const divdata = document.createElement("div");
+
+    divdata.className = "main";
+
+    divdata.style.backgroundColor = "blue";
+
+    divdata.style.color = "White";
+
+    divdata.style.padding = "15px";
+
+    const textnode = document.createTextNode(
+      "Hello we are learning DOM 😎😎😎 ."
+    );
+
+    divdata.appendChild(textnode);
+
+    document.body.appendChild(divdata);
+
+    // create li and add to ul
+
+    function createLI(data) {
+      const ullist = document.querySelector(".list");
+
+      const lilist = document.createElement("li");
+
+      const textdata = document.createTextNode(data);
+
+      lilist.appendChild(textdata);
+
+      ullist.appendChild(lilist);
+    }
+
+    createLI("one");
+    createLI("two");
+    createLI("three");
+    createLI("four");
+  </script>
+</html>

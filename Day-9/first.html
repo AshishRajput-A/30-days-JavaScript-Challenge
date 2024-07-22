@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selecting and updating</title>
+  </head>
+  <body>
+    <h1 id="heading">DOM manupulation</h1>
+
+    <p class="data">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, maxime?
+    </p>
+  </body>
+
+  <script>
+    const head = (document.getElementById("heading").innerHTML =
+      "I LIKE TO LEARN DOM IN JAVASCRIPT 😊😊😊.");
+
+    document.querySelector(".data").innerHTML =
+      "Hii i am ashish rajput a web developer";
+
+    document.querySelector(".data").style.backgroundColor = "red";
+    document.querySelector(".data").style.color = "white";
+  </script>
+</html>
