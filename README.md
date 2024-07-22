@@ -14,6 +14,7 @@
 | 6 | Array | day 6 i prectice array and their methods push,pop,shift,unshift and itration for-of and for-each and the last i know about multi dimensinal matrix |
 | 7 | Object | day 7 i prectice object, object-methods , object itration , nested object | 
 | 8 | ES6 + Features | day 8 i prectice es6 features of javascript like template litrels , destructring , spread and rest operator , Enchance object literels  ,  Default parameter |
+| 9 | DOM | day 9  i prectice DOM manululation by creating new element and much more |
 ### **Stretch Goals**
 
 - That's my goal to revise javascript from beginner 😊😊
