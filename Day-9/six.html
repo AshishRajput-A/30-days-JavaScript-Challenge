@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add-event listener</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button {
+      padding: 15px;
+      background: blue;
+      color: white;
+      font-size: x-large;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: white;
+      color: blue;
+    }
+  </style>
+  <body>
+    <p id="data">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+      voluptatibus.
+    </p>
+    <button onclick="textChange()">change text</button>
+  </body>
+
+  <script>
+    function textChange() {
+      let data = document.getElementById("data");
+
+      data.innerHTML = "Hello my name is ashish i am from india.";
+      data.style.color = "red";
+    }
+  </script>
+</html>

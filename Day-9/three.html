@@ -13,9 +13,37 @@
       reprehenderit blanditiis, quo, veniam fugiat dolore adipisci esse nisi,
       reiciendis accusamus repellat voluptatibus.
     </p>
+
+    <ul id="list">
+      <li id="lis">one</li>
+      <li id="lis">two</li>
+      <li id="lis">three</li>
+    </ul>
+
+    <button
+      style="
+        cursor: pointer;
+        font-size: x-large;
+        background: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+      "
+      onclick="removeLastChild()"
+    >
+      Remove last Child
+    </button>
   </body>
   <script>
     const data = document.querySelector(".pera");
     data.remove();
+
+    function removeLastChild() {
+      let parent = document.getElementById("list");
+
+      if (parent.lastChild) {
+        parent.removeChild(parent.lastChild);
+      }
+    }
   </script>
 </html>

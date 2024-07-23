@@ -5,20 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Handle</title>
   </head>
-  <body>
-    <button class="btn" onclick="textChange()">Click Me</button>
 
-    <p id=" pera">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur
-      eius ipsam fugit, impedit debitis minima! Rerum, quibusdam? Nam molestiae
-      fuga voluptatem soluta magni aspernatur labore tenetur illum hic aperiam.
-    </p>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #myelement {
+      height: 200px;
+      width: 200px;
+
+      border: 10px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+
+  <body>
+    <div id="myelement">
+      <p>Mouse over properties</p>
+    </div>
   </body>
 
   <script>
-    const btn = document.querySelector(".btn");
-    const data = document.querySelector("#pera");
+    const data = document.getElementById("myelement");
+    data.addEventListener("mouseover", function () {
+      data.style.borderColor = "red";
+    });
 
-    const textChange = () => {};
+    data.addEventListener("mouseout", function () {
+      data.style.borderColor = "black";
+    });
   </script>
 </html>

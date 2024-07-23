@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modification attribute</title>
+  </head>
+  <body>
+    <img
+      id="image"
+      style="height: 200px; width: 250px; border-radius: 20px"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEK6Y9TQ66t_I6hTQHpWMnljqE4jF_opUi8w&s"
+      alt="photo"
+    />
+
+    <button onclick="changeImage()">Change image</button>
+  </body>
+
+  <script>
+    function changeImage() {
+      let image = document.getElementById("image");
+
+      image.setAttribute(
+        "src",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbKiyI77M2OIk8juz2Of3svtep_HP2Ky6kaw&s"
+      );
+
+      image.setAttribute("alt", "virat kohlis");
+    }
+  </script>
+</html>
