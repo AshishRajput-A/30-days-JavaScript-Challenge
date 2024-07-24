@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click event</title>
+  </head>
+  <body>
+    <p id="data">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+      deserunt.
+    </p>
+
+    <button onclick="changedata()">Click one time to change text</button>
+
+    <img
+      src="https://i.pinimg.com/236x/42/d3/a5/42d3a5fb0d65d9c3fcbc3e06ced16646.jpg"
+      alt="photo"
+      style="height: 300px; width: 200px; visibility: hidden"
+      id="image"
+    />
+
+    <button id="btn" ondblclick="visiblePhoto()">
+      Double click to visible the image
+    </button>
+  </body>
+
+  <script>
+    function changedata() {
+      let data = document.getElementById("data");
+
+      data.innerHTML = "Hii i am ashish rajput.";
+      data.style.color = "red";
+    }
+
+    function visiblePhoto() {
+      const image = document.getElementById("image");
+
+      image.style.visibility = "visible";
+    }
+  </script>
+</html>

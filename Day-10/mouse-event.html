@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse-Event</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+    #main {
+      margin: 20%;
+      background: pink;
+      height: 200px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <div id="main"><p>Mouse-over</p></div>
+  </body>
+
+  <script>
+    const data = document.getElementById("main");
+
+    data.addEventListener("mouseover", function () {
+      data.style.backgroundColor = "red";
+      data.style.color = "white";
+    });
+
+    data.addEventListener("mouseout", function () {
+      data.style.backgroundColor = "green";
+      data.style.color = "white";
+    });
+  </script>
+</html>
