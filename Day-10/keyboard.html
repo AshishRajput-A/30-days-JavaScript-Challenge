@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keydown-keyup</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Press any key and see keyup and keydown.</h1>
+  </body>
+
+  <script>
+    document.addEventListener("keydown", function (e) {
+      console.log(`you pressed ${e.key} and keycode is ${e.keyCode}`);
+    });
+
+    document.addEventLisstener("keyup", (e) => {
+      console.log(`you upped ${e.key} and keycode is ${e.keyCode}`);
+    });
+  </script>
+</html>

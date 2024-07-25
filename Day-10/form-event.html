@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>from-event</title>
+  </head>
+  <body>
+    <form id="myform">
+      <input type="text" placeholder="enter name .:" />
+      <br />
+      <input type="password" placeholder="enter password.:" />
+      <br />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+
+  <script>
+    const form = document.getElementById("myform");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const formdata = new FormData(form);
+
+      formdata.forEach((val, key) => {
+        console.log(`${key} : ${val}`);
+      });
+    });
+  </script>
+</html>
