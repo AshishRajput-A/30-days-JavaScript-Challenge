@@ -21,11 +21,14 @@
     form.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      const formdata = new FormData(form);
+      const formData = new FormData(e.target);
 
-      formdata.forEach((val, key) => {
-        console.log(`${key} : ${val}`);
+      const data = {};
+
+      formData.forEach((val, key) => {
+        data[key] = value;
       });
+      console.log("data.:", data);
     });
   </script>
 </html>

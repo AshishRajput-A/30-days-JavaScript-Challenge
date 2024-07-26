@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add-element-child</title>
+  </head>
+  <body>
+    <button id="btn">Add item to list</button>
+
+    <ul id="items">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+
+    <script>
+      document.getElementById("btn").addEventListener("click", (e) => {
+        const newli = document.createElement("li");
+        newli.textContent = `Item ${
+          document.getElementById("items").children.length + 1
+        }`;
+
+        document.getElementById("items").appendChild(newli);
+      });
+    </script>
+  </body>
+</html>
