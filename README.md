@@ -15,7 +15,8 @@
 | 7 | Object | day 7 i prectice object, object-methods , object itration , nested object | 
 | 8 | ES6 + Features | day 8 i prectice es6 features of javascript like template litrels , destructring , spread and rest operator , Enchance object literels  ,  Default parameter |
 | 9 | DOM | day 9 i prectice DOM manululation by creating new element and much more and modifying existing elements attributes and learn about event handling like mouseover and onclick |
-| 10 | Event Handling | day 10 i prectice event handling |
+| 10 | Event Handling | day 10 i prectice event handling like Clicked event and mousehover and mouverout and form event submit event and keywords event |
+| 11 | Promise and async/Await | day-11 i prectice creating promise and also handling promise throw async/await  and fetching data from API and concurrent promises |
 ### **Stretch Goals**
 
 - That's my goal to revise javascript from beginner 😊😊
