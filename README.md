@@ -20,6 +20,7 @@
 | 12 | Error Handling | day-12 I prectice basic error handling and custom error handling and promise error handlinscript and fetch error handling script |
 | 13 | Modules | day-13 i prectice creating export and import modules and named and default exports  imorting entire modeuls and also using third party importing modules |
 | 14 | Classes | day-14 i prectice class definition and class inheritance and creating static methods and properties, getters and setters and also creating private fields |
+| 15 | Closure | day-15 i prectice understanding closure and prectical closure and closure loop , modules pattern and memoization |
 ### **Stretch Goals**
 
 - That's my goal to revise javascript from beginner 😊😊
